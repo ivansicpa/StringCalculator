@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode10.3
 xcode_project: StringCalculator.xcodeproj
 xcode_scheme: StringCalculator
-xcode_destination: platform=iOS Simulator, name=iPhone 11
+xcode_destination: platform=iOS Simulator, name=iPhone 8
