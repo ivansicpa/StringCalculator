@@ -14,6 +14,7 @@
 		596714B723CF2E3700C59E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596714B523CF2E3700C59E83 /* LaunchScreen.storyboard */; };
 		596714C223CF2E3700C59E83 /* StringCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596714C123CF2E3700C59E83 /* StringCalculatorTests.swift */; };
 		596714CD23CF2E3700C59E83 /* StringCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596714CC23CF2E3700C59E83 /* StringCalculatorUITests.swift */; };
+		596714DB23CF324600C59E83 /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596714DA23CF324600C59E83 /* StringCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		596714C823CF2E3700C59E83 /* StringCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		596714CC23CF2E3700C59E83 /* StringCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculatorUITests.swift; sourceTree = "<group>"; };
 		596714CE23CF2E3700C59E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596714DA23CF324600C59E83 /* StringCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				596714B323CF2E3700C59E83 /* Assets.xcassets */,
 				596714B523CF2E3700C59E83 /* LaunchScreen.storyboard */,
 				596714B823CF2E3700C59E83 /* Info.plist */,
+				596714DA23CF324600C59E83 /* StringCalculator.swift */,
 			);
 			path = StringCalculator;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596714DB23CF324600C59E83 /* StringCalculator.swift in Sources */,
 				596714AF23CF2E3600C59E83 /* ViewController.swift in Sources */,
 				596714AD23CF2E3600C59E83 /* AppDelegate.swift in Sources */,
 			);
